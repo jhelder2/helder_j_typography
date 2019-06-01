@@ -1,0 +1,120 @@
+body { 
+	font-family: template-gothic, sans-serif;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+#hero {
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 420px;
+}
+
+.traa {
+	background:rgb(0, 0, 0, 0.3);
+	padding: 30px;
+	color: #fafafa;
+	border-color: black;
+	border-style: solid;
+	border-width: 8px;
+	position: absolute;
+	top: 35%;
+	left: 75%;
+}
+
+.troutImgsLeft {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+
+.troutImgsRight {
+	display: flex;
+	flex-direction: column;
+	float: right;
+}
+
+
+.who {
+	padding-right: 10px;
+	float: left;
+}
+.what {
+	float: right;
+}
+
+.troutleft {
+	padding: 10px 10px 0 0;
+	float: left;
+}
+.troutright {
+	padding: 10px 10px 0 0;
+	float: left;
+}
+h1 {
+	padding: 20px 0 20px 0;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 34px;
+	color: black;
+}
+
+h2 {
+	padding: 20px 0 20px 0;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 28px;
+	color: black;
+}
+
+h3 {
+	padding: 10px 0 10px 0;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	color: black;
+}
+
+p, ul {
+	padding: 10px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: black;
+}
+
+.drop-cap {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0 4px 0 0;
+	float: left;
+	padding: 2px;
+	border: thin black dotted;
+	border-color: #c0c0c0;
+	box-shadow: 2px 2px 0 #dedede;
+}
+
+.bullet {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	margin: 0 4px 0 0;
+	float: left;
+	padding: 1px;
+	box-shadow: 2px 2px 0 #dedede;
+}
+
+.hands {
+	box-shadow: 1px 1px 2px 2px #dedede;
+}
